@@ -4,6 +4,8 @@
 - use of developed functions to solve systems of linear equations.
 
 <h1 style="font-size:15;">Algorithm development</h1>
+**List of functions:
+
 void FillMatrix(double **matrix, int matrixValue) - fills the matrix to a two-dimensional array of type double, and also fills the right side of the matrix so that this part becomes one
 
 double** matrix – a two-dimensional array consisting of a regular matrix of size matrixValue and an identity matrix of the same size
