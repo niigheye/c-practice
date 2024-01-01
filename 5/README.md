@@ -1,6 +1,7 @@
 <h1 style="font-size:15;"> Formulation of the problem </h1>
 1. Numerical integration of a function with a given accuracy using the rectangle method.
-Calculate the definite integral from a to b for the four functions f1 = x, f2 = sin( 22 * x), f3 = x4 and f4 = arctan(x).
+Calculate the definite integral ![image](https://github.com/niigheye/c-practice/assets/144588966/c7c192f2-a63b-4b53-8c5e-cd460a97b3e2)
+ from a to b for the four functions f1 = x, f2 = sin( 22 * x), f3 = x4 and f4 = arctan(x).
 Calculate the integral in the form of the IntRect function.
 Perform calculations for five precision values: 0.01, 0.001, 0.0001, 0.00001 and 0.000001.
 Investigate the performance of the algorithm depending on the integrand and the required accuracy (the performance of the algorithm can be estimated by the number of elementary rectangles n).
@@ -9,6 +10,7 @@ The results are presented in the form of 5 tables, one table for each accuracy v
 To print result tables, use the same function as in the rectangle method.
 
 <h1 style="font-size:15;"> Algorithm development </h1>
+
 
 *Description of the algorithm
 
